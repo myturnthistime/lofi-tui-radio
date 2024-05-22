@@ -17,6 +17,12 @@ func main() {
 		"peaceful piano radio",
 		"dark ambient radio",
 		"lofi sleep radio",
+		"liquid dnb radio",
+		"chill house radio",
+		"roots reggae radio",
+		"bossa nova radio",
+		"tokyo night drive radio",
+		"edm radio",
 	}
 
 	// everything always must be tokyo night or catpuccin
@@ -80,6 +86,18 @@ func getStreamURL(channel string) string {
 		return "https://www.youtube.com/watch?v=S_MOd40zlYU"
 	case "lofi sleep radio":
 		return "https://www.youtube.com/watch?v=rUxyKA_-grg"
+	case "liquid dnb radio":
+		return "https://www.youtube.com/watch?v=Cwq3AFyV044"
+	case "chill house radio":
+		return "https://www.youtube.com/watch?v=36YnV9STBqc"
+	case "roots reggae radio":
+		return "https://www.youtube.com/watch?v=UKPK4D4D4zw"
+	case "bossa nova radio":
+		return "https://www.youtube.com/watch?v=nM6A9HRp6wY"
+	case "tokyo night drive radio":
+		return "https://www.youtube.com/watch?v=Lcdi9O2XB4E"
+	case "edm radio":
+		return "https://www.youtube.com/watch?v=whACSpi2zQ8"
 	default:
 		return ""
 	}
