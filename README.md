@@ -5,7 +5,7 @@ Useful because
 - going on youtube is full of distractions and that is the last thing you want if you're trying to study/chill
 
 Requires
-- streamlink to be installed, which is avaliable on all good package managers
+- streamlink & VLC to be installed, which is avaliable on all good package managers
 
 To install
 - clone it, build it and copy it to your /bin/ folder
